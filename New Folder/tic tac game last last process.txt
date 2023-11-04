@@ -1,0 +1,162 @@
+int board [3][3],i,j;
+void draw()
+{
+for(i=0;i<=2;i++)
+{
+for(j=0;j<=2;j++)
+{
+printf("%c ",board[i][j]);
+
+if(j>=0&&j<=1)
+
+{
+printf("|");
+}
+    }
+    
+printf("\n");
+
+if(i>=0&&i<=1)
+
+{
+printf("-------\n");
+                            
+}
+    
+printf("\n");
+
+}
+}
+
+void move(char symbol,int r,int c)
+
+{
+    
+board [r][c]=symbol;
+
+}
+int checkwin(char ch)
+
+{
+                                                               
+for (i=0;i<=2;i++)
+   
+{
+       
+if(board[i][0]==ch && board[i][1]==ch && board[i][2]==ch)
+       
+{
+           
+return 1;
+       
+}
+   }
+   
+for(j=0;j<=2;j++)
+   
+{
+       
+if(board[0][j]==ch && board[1][j]==ch && board[2][j]==ch)
+       
+{
+           
+return 1;
+       
+}
+    }
+    
+if(board[0][2]==ch && board[1][1]==ch && board[2][0]==ch)
+        
+{
+            
+return 1;
+        
+}
+
+if(board[0][0]==ch && board[1][1]==ch && board[2][2]==ch)
+        
+{
+            
+return 1;
+        
+}
+return 0;
+}
+int main() 
+{
+ 
+
+int c=0;
+
+char player1= 'x';
+
+char player2= 'o';
+  char  winner=' ';
+
+char currentplayer=player1;   
+int rows,column;
+for(i=0;i<=2;i++)
+
+{
+for(j=0;j<=2;j++)
+        
+{
+board[i][j]=' ';
+
+}
+    }
+
+while(c<=9)
+{
+    
+draw();
+printf("player 1 %c\n",currentplayer);
+printf("enter the rows & column");
+scanf("%d %d",&rows,&column);
+if(rows<0 || rows>2 || column<0 || column>2 || board[rows][column]!=' ')
+ 
+{
+printf("invalid move\n");
+
+continue;
+
+}
+
+    
+move(currentplayer,rows,column);
+
+
+
+if(checkwin(currentplayer))
+{
+ winner=currentplayer;
+ 
+break;
+ 
+}
+
+
+ //printf("winner is %c",winner);    
+
+ if(currentplayer==player1)
+ {
+ currentplayer=player2;
+ }
+
+ else
+
+ {
+    
+ currentplayer=player1;
+
+ }
+ // printf(" winner is :%c  ",winner);
+ //break;
+ c++;
+ }
+ 
+
+return 0;
+}
+
+

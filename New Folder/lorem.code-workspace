@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../lorem"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"INDEX.C": "cpp"
+		}
+	}
+}

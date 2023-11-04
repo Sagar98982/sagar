@@ -1,0 +1,81 @@
+int main() {
+    int i,j,board[3][3],k=1;
+    for(i=0;i<=2;i++)
+    {
+        for(j=0;j<=2;j++)
+        {
+            printf("%d",k,board[i][j]);
+            k++;
+            if(j>=0&&j<=1)
+            {
+                printf("|");
+                
+            }
+        }
+        printf("\n");
+        if(i>=0&&i<=1)
+        {
+            printf("------\n");
+        }
+    }
+    int rows,column;
+    char player1='x';
+    char player2='o';
+    char currentplayer=player1;
+    char secondplayer=player2;
+    printf("enter the player 1%c\n",currentplayer);
+    printf("enter the row & column");
+    scanf("%d %d",&rows,&column);
+    printf("enter the player 1");
+    scanf("%d",&currentplayer);
+    
+    switch(currentplayer)
+    {
+        case 1: printf("x");
+        break;
+        case 2: printf("x");
+        break;
+        case 3: printf("x");
+        break;
+        case 4: printf("x");
+        break;
+        case 5: printf("x");
+        break;
+        case 6: printf("x");break;
+        case 7: printf("x");break;
+        case 8: printf("x");break;
+        case 9: printf("x");break;
+        default: printf("invalid choice");
+    }
+    printf("\n");
+    printf("enter the second player");
+    scanf("%d",& player2);
+        
+    switch(player2)
+    {
+        case 1: printf("o");
+        break;
+        case 2: printf("o");
+        break;
+        case 3: printf("o");
+        break;
+        case 4: printf("o");
+        break;
+        case 5: printf("o");
+        break;
+        case 6: printf("o");break;
+        case 7: printf("o");break;
+        case 8: printf("o");break;
+        case 9: printf("o");break;
+        default: printf("invalid choice");
+    }
+    
+    
+    
+    return 0;
+}
+
+
+
+
+       tic tac game

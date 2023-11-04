@@ -1,0 +1,648 @@
+ void sum(void);
+
+
+
+void main() {
+    
+    
+sum();
+   
+   
+
+}
+
+                                        (no argument without no return type)
+void sum()
+{
+    
+int a=5,b=7,sum=0;
+                 
+ sum=a+b;
+   
+printf("sum is %d",sum);
+}
+
+
+
+
+
+ int sum(void);
+
+
+void main() {
+    
+int s;
+   
+s= sum();
+   
+printf("sum is %d",s);
+   
+
+}
+
+                                         (no argument with return type)
+int sum()
+{
+   
+int a,b,sum=0;
+  
+printf("enter a&b");
+  
+scanf("%d %d",&a,&b);
+  
+sum=a+b;
+  
+
+return sum;
+
+}
+
+
+
+ int sum();
+
+
+
+void main() {
+    
+int s;
+   
+s= sum(4,6);
+   
+printf("sum is %d",s);
+   
+
+}
+                                        (no argument with return type)
+
+int sum()
+
+{
+   
+int a,b,sum=0;
+  
+printf("enter a&b");
+  
+scanf("%d %d",&a,&b);
+  
+sum=a+b;
+  
+return sum;
+}
+  
+
+
+
+int sum(void);
+
+
+void main() {
+    
+int s;
+   
+s= sum(4,6);
+                            (no argument with return type == error)
+printf("sum is %d",s);
+   
+
+}
+
+
+int sum()
+{
+   
+int a,b,sum=0;
+  
+printf("enter a&b");
+  
+scanf("%d %d",&a,&b);
+  
+sum=a+b;
+  
+return sum;
+
+}
+  
+
+
+
+int sum(void);
+
+
+
+void main() {
+    
+int s;
+   
+s= sum();
+                                (no argument with return type b ki value print krega)
+printf("sum is %d",s);
+   
+
+}
+                                             (isme sum,a ==== coma(,) means variable discard krega)
+
+int sum()
+{
+   
+int a,b,sum=0;
+  
+printf("enter a&b");
+  
+scanf("%d %d",&a,&b);
+  
+sum=a+b;
+  
+return sum,a;
+
+}
+ 
+
+
+
+
+
+ int sum();
+
+
+
+void main() {
+    
+int s;
+   
+s= sum(4,6);
+   
+printf("sum is %d",s);
+   
+
+}                                            (no argument with return type )
+
+
+ int sum()
+
+{
+                                            
+int a,b,sum=0;
+  
+printf("enter a&b");
+  
+scanf("%d %d",&a,&b);
+  
+sum=a+b;
+  
+return sum,a;
+
+} 
+
+
+
+
+
+float sum(void);
+
+
+
+void main() {
+    
+float s;
+   
+s= sum();
+   
+printf("sum is %f",s);
+                     (no argument with return type ===  float using)  
+
+}
+
+
+float sum()
+
+{
+   
+int a,b,sum=0;
+  
+printf("enter a&b");
+  
+scanf("%d %d",&a,&b);
+  
+sum=a+b;
+  
+return sum;
+
+}
+  
+
+
+
+
+
+ char sum(void);
+
+
+
+void main() 
+{
+    
+char s;
+   
+s= sum();
+   
+printf("sum is %c",s);
+   
+
+}
+
+                                        (no argument with return type ==== char using)
+char sum()
+
+{
+   
+int a,b,sum=0;
+  
+printf("enter a&b");
+  
+scanf("%d %d",&a,&b);
+  
+sum=a+b;
+  
+return 'a';
+  
+return sum;
+
+}
+
+
+
+
+void sum(float,float);
+
+
+void main() {
+    
+    
+float x,y;
+    
+printf("enter x and y");
+    
+scanf("%f %f",&x,&y);
+    
+sum(x,y);                               (function with argument without return type === float using)
+}
+ 
+  
+void sum(float x,float y)
+   
+{
+       
+float s=0;
+       
+s=x+y;
+       
+printf("sum is %f",s);
+   
+}
+    
+
+
+
+
+
+void sum(float,float);
+
+void main() 
+{
+    
+    
+float x,y;
+    
+printf("enter x and y");
+    
+scanf("%f %f",&x,&y);
+                   (function with argument without return type === float using===direct (x+y) 
+sum(x,y);
+
+  }
+                                                                                                            print)
+
+void sum(float x,float y)
+   
+{
+       
+//float s=0;
+      
+// s=x+y;
+       
+printf("sum is %f",x+y);
+   
+}
+    
+
+
+
+
+void sum(float,float);
+
+
+void main() {
+    
+    
+float x,y;
+                              (function with argument without return type == float using == sum(3.1,1.1) 
+printf("enter x and y");
+            
+scanf("%f %f",&x,&y);
+                                                                                        using)
+sum(3.1,1.1);
+
+}
+   
+
+void sum(float x,float y)
+   
+{
+       
+//float s=0;
+      
+// s=x+y;
+       
+printf("sum is %f",x+y);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+void sum(int,int);
+
+
+int main() 
+{
+    
+int x,y;
+    
+printf("enter x and y");
+    
+scanf("%d %d",&x,&y);
+                    (function with argument without return type === int using)
+sum(x,y);
+
+}
+  
+
+ void sum(int x,int y)
+   
+{
+       
+int s=0;
+       
+s=x+y;
+       
+printf("sum is %d",s);
+   
+}
+
+
+
+
+void sum(int,int);
+
+ 
+main() {
+    
+int x,y;
+    
+printf("enter x and y");
+    
+scanf("%d %d",&x,&y);
+    
+sum(x,y);
+
+}
+                                        (function with argument without return type == int using ====  direct (x+y) 
+
+void sum(int x,int y)
+                                                                                         print)
+{
+      
+ //int s=0;
+      
+// s=x+y;
+       
+printf("sum is %d",x+y);
+   
+}
+
+
+
+
+void sum(int,int);
+
+ 
+
+main() {
+   
+ int x,y;
+    
+printf("enter x and y");
+                 (function with argument without return type == int using == sum(4,5) using)
+scanf("%d %d",&x,&y);
+    
+sum(4,5);
+
+}
+   
+
+void sum(int x,int y)
+   
+{
+       
+//int s=0;
+      
+// s=x+y;
+       
+printf("sum is %d",x+y);
+   
+}
+
+
+
+
+
+
+void sum(float,int);
+
+ 
+main() 
+{
+    
+int x,y;
+    
+printf("enter x and y");
+    
+scanf("%d %d",&x,&y);
+                    (function with argument without return type === float,int
+sum(x,y);
+
+}
+                                                                                         float,int)
+
+ void sum(float x,int y)
+   
+{
+       
+int s=0;
+       
+s=x+y;
+       
+printf("sum is %d",s);
+   
+}
+
+
+
+
+
+
+
+int sum(int,int);
+
+ 
+main() {
+    
+int x,y,j;
+    
+printf("enter x and y");
+    
+scanf("%d %d",&x,&y);
+    
+j=sum(x,y);
+    
+printf("sum is %d",j);
+                (function with argument with return type == int using== return s)
+}
+   
+int sum(int a,int b)
+   
+{
+       
+int s=0;
+      
+s=a+b;
+       
+//printf("sum is %d",x+y);
+       
+return s;
+   }
+
+
+
+
+int sum(int,int);
+
+ 
+
+main() {
+    
+int x,y,j;
+    
+printf("enter x and y");
+            (function with argument with return type == int using == return a+b;)
+scanf("%d %d",&x,&y);
+    
+j=sum(x,y);
+    
+printf("sum is %d",j);
+
+}
+   
+
+int sum(int a,int b)
+   
+{
+       
+       
+return a+b;
+   
+}
+
+
+
+
+
+float sum(float,float);
+
+
+
+void main() {
+    
+    
+float x,y,j;
+    
+printf("enter x and y");
+    
+scanf("%f %f",&x,&y);
+             (function with argument with return type == float using == return s;)
+j=sum(x,y);
+    
+printf(" sum is %f",j);
+
+}
+   
+
+float sum(float a,float b)
+  
+ {
+      
+float s=0;
+       
+s=a+b;
+       
+return s;
+    
+
+}
+
+
+
+
+
+float sum(float,float);
+
+
+
+void main() {
+    
+    
+float x,y,j;
+    
+printf("enter x and y");
+    
+scanf("%f %f",&x,&y);
+          (function with argument with return type == float using == return a+b;)
+j=sum(x,y);
+    
+printf(" sum is %f",j);
+
+}
+   
+
+float sum(float a,float b)
+   
+{
+      
+//float s=0;
+      
+// s=a+b;
+       
+return a+b;
+    
+
+}

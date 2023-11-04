@@ -1,0 +1,127 @@
+int sum (char name[2],int age)
+
+
+{
+    
+
+printf("%s %d\n",name,age);
+    
+
+return age;
+                               
+
+}
+
+
+int main() 
+{
+
+char name;
+int age;
+   
+int j; 
+                                (int main m name or age print dono sath m print nhi ho rhe)
+j=sum("sagar",1);
+   
+printf(" %d ",j); 
+
+sum("grover",2);
+    
+
+sum("hitesh",3);
+    
+
+// printf("%s %d",j);   
+
+return 0;
+
+
+}
+
+
+
+
+
+int sum(int x)
+
+{
+    
+
+int c=5+x;
+
+//printf(" sum= %d",5+x);
+
+return c;
+
+}
+
+
+int main() {
+    
+ 
+int j=  sum(5);                          
+
+// printf("%d",sum(5));
+   
+printf(" sum are %d",j); 
+
+return 0;
+
+}
+
+
+
+
+
+
+
+ 
+
+
+
+int sum(int x)
+
+
+{
+
+
+
+printf(" x= %d\n",x);
+
+
+printf(" sum = %d\n",5+x);                   
+
+
+return  5+x;
+
+
+}
+
+
+int main()                      
+
+{
+
+int a=5;
+    
+
+int j=sum(3);
+ 
+
+printf("%d\n",j);
+
+
+printf("%d",a);
+    
+
+
+return 0;
+
+
+
+}
+
+
+
+
+              

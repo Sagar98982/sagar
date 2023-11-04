@@ -1,0 +1,359 @@
+
+
+
+
+
+sum (char name[],int age)
+
+{
+    
+printf("%s\n",name);
+    
+printf("%d\n",age);
+                               
+}
+
+int main() 
+{
+
+    
+sum("sagar",1);
+    
+sum("grover",2);
+    
+sum("hitesh",3);
+    
+    
+return 0;
+
+}
+
+
+
+
+int sum(int x)
+{
+    
+return 5+x;
+
+}
+
+int main() {
+    
+                              
+ printf("%d",sum(5));
+    
+return 0;
+
+}
+
+
+
+
+
+int sum(int x)
+
+{
+
+printf("%d\n",x);
+printf("%d\n",5+x);                   
+return  5+x;
+
+    
+
+ }
+
+ int main() {
+    
+int a=5;
+    
+sum(3);
+ 
+printf("%d",a);
+    
+return 0;
+
+}
+
+
+
+
+
+
+
+int sum(int x,int y)
+
+{
+    
+printf("%d\n",x);
+    
+printf("%d\n",y);
+    
+return x+y;
+
+}
+
+                                       
+int main() 
+{
+    
+int a=9;
+  
+int  b=5;
+  
+sum(5,3);
+ 
+printf("%d\n", a);
+ 
+printf("%d",sum(5,3));
+    
+return 0;
+
+}
+
+
+
+
+
+1........
+sum (char name[],int age)
+
+{
+    
+printf("%s %d\n",name,age);
+    
+
+                               
+}
+
+int main() 
+{
+char name;
+int age;
+   int j; 
+j=sum("sagar",1);
+   printf("%s %d ",j); 
+sum("grover",2);
+    
+sum("hitesh",3);
+    
+// printf("%s %d",j);   
+return 0;
+
+}
+
+
+
+               {{not j ki value m segmentation fault}}
+
+
+
+
+2.......
+
+
+int sum(int x)
+{
+    
+return 5+x;
+printf("%d",x);
+
+}
+
+int main() {
+    
+ int j=  sum(5);                          
+// printf("%d",sum(5));
+   printf(" sum are %d",j); 
+return 0;
+
+}
+                                 
+
+                    {{x ki value print nhi hui or uper 5+x ko sum print krna h}}
+
+
+
+
+
+3.......
+
+int sum(int x)
+
+{
+
+
+printf("%d\n",x);
+
+printf("%d\n",5+x);                   
+
+return  5+x;
+
+    
+
+ 
+}
+
+ 
+int main()                      (ye ok print ho rha h 5+x)
+{
+    
+
+int a=5;
+    
+
+int j=sum(3);
+ 
+printf("%d\n",j);
+
+printf("%d",a);
+    
+
+return 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+4........
+
+
+int sum(int x,int y)
+
+{
+    
+
+printf("%d\n",x);
+    
+
+printf("%d\n",y);
+    
+
+return x+y;
+
+
+}
+
+                                      
+ 
+int main() 
+{
+    
+
+int a=9;
+  
+                         {{return x+y ka sum print == === or 5 3 ku print ho rha h}}
+int  b=5;
+  
+
+sum(5,3);
+ 
+
+printf("%d\n", a);
+ 
+
+printf("%d",sum(5,3));
+    
+
+return 0;
+
+
+}
+
+
+
+
+
+5............
+
+
+int sum(int x,int y)
+
+{
+    
+printf("%d \n%d\n",x,y);
+
+return x+y;
+printf(" sum %d",x+y);
+
+}
+
+
+int main() 
+{
+                                    
+int a=4;
+ 
+    
+int j=sum(5,3);
+    
+printf("%d\n",j);
+    
+printf("%d\n",a);
+    
+printf("%d",(sum(5,3)));
+    
+return 0;
+
+}
+
+
+
+
+                              {{uper x+y ko print nhi kra== niche sum(5,3) me 5,3 ku print kra}}
+
+
+
+
+
+
+
+
+
+int sum(int x,int y)
+
+{
+    
+printf(" x %d\n",x);
+    
+printf(" y %d\n",y);
+    
+return x+y;
+printf("sum are %d",x+y);
+
+}
+
+                                       
+int main() 
+{
+    
+int a=9;
+  
+int  b=5;
+  
+sum(5,3);
+ 
+printf("%d\n", a);
+ 
+printf(" result %d",sum(5,3));
+    
+return 0;
+
+}
+
+
+
+
+
+
+
+
+                          {{upper x and y 2 bar repeat ku ho rha h === or sum(5,3) ko hatane k bad 1 bar x,y print}}
+

@@ -1,0 +1,165 @@
+   char a[10],b[10],c[30];
+int i,s=0,l,k;
+printf("enter a\n");
+fgets(a,10,stdin);
+//scanf("%s",&a);
+printf("enter b\n");
+fgets(b,10,stdin);
+//scanf("%s",&b);
+printf("string a is %s\n",a);
+printf("string b is %s\n",b);
+printf("\n");
+for(i=0;a[i]!='\0';i++)
+{
+    s++; 
+    
+}
+printf("%d",s);
+
+for(i=0;a[i]='\0';i++);
+//int j=0;
+int j;
+for(j=0;b[j]!='\0';j++,i++)
+{
+    a[i] = b[j];
+    
+
+}
+
+//a[i]='\0';
+printf("concentination stirng is %s" , a);
+
+
+
+int a[3][3],i,j,k;
+  
+ printf("enter the element");
+  
+ for(i=0;i<=2;i++)
+   
+{
+      
+ for(j=0;j<=2;j++)
+      
+ {
+           
+scanf("%d",&a[i][j]);
+       
+}
+   }
+   
+for(i=0;i<=2;i++)
+   
+{
+       
+for(j=0;j<=2;j++)
+       
+{
+           
+printf("%d\t",a[i][j]);
+       
+}                          
+printf("\n");
+}
+for(i=0;i<=2;i++)
+{
+for(j=0;j<=2;j++)
+{
+if(j>=3-i && j<=k)
+{
+               
+printf("%d\t",a[i][j]);
+           
+}
+           
+else
+           
+printf(" \t");
+
+}
+       
+printf("\n");
+   
+}
+
+
+
+
+char a[10],b[10];
+int i,l,c=0,j=0;
+printf("enter a\n");
+fgets(a,10,stdin);
+printf("string a is %s",a);
+printf("\n");
+for(i=0;a[i]!='\0';i++)
+{
+    c++;
+    
+}
+printf("%d",c);
+for(i=c-1;i>=0;i--)
+{
+    b[j]=a[i];
+    j++;
+}
+printf("%s",b);
+
+
+
+
+ char a[20],b[20],i,j;
+    int c=0,c2=0;
+   printf("enter the element a");
+   fgets(a,20,stdin);
+   printf("enter the element b");
+   fgets(b,20,stdin);
+   for(i=0;a[i]!='\0';i++)
+   {
+       c++;
+   }
+   printf("%d",c);
+   printf("\n");
+for(i=0;b[i]!='\0';i++)
+   {
+       c2++;
+   }
+   printf("%d",c2);
+   for(i=0;i<=c2;i++)
+   {
+       a[c+i]=b[i];
+   }
+   printf("%s",a);
+   
+
+concTE(?)
+
+
+ char a[20],i,j,k,size=6;
+   printf("enter the element");
+   fgets(a,20,stdin);
+   for(i=0;a[i]!='\0';i++);
+   for(i=0;i<=4;i++)
+   {
+       for(j=i+1;j<=size;j++)
+       {
+           if(a[i]==a[j])
+           {
+               for(k=j;k<=size;k++)
+               {
+                  if(a[k]=a[k+1]);
+                  {
+                   size--;
+                   j--;
+               }}
+           }
+       }
+       
+   }
+   printf("\n");
+ for(i=0;i<=4;i++)
+   {
+       printf("%s",a[i]);
+   }
+
+
+SPACES REMOVE

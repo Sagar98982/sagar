@@ -1,0 +1,200 @@
+ sum (int a[5])
+
+{
+    
+int i;
+    
+for(i=0;i<=4;i++)
+    
+{
+                                               (10,20,30,40,50)
+printf("%d\n",a[i]);
+    
+}
+}
+
+
+int main() 
+{
+                                               (sum(a[5])) error
+int a[5]={10,20,30,40,50};
+
+    
+sum(a);
+    
+    
+   
+ return 0;
+
+}
+
+
+
+
+ sum (char name[],int age);
+
+{
+    
+printf("%s",name);
+    
+printf("%d",age);
+                               (char name[] error)
+}
+
+int main() 
+{
+
+    
+sum("sagar",1);
+    
+sum("grover",2);
+    
+sum("hitesh",3);
+    
+    
+return 0;
+
+}
+
+
+
+
+
+
+int sum(int x)
+{
+    
+return 5+x;
+
+}
+
+int main() {
+    
+                              (function ko print)
+ printf("%d",sum(5));
+    
+return 0;
+
+}
+
+
+
+
+
+
+
+int sum(int x)
+
+{
+
+printf("%d\n",x);
+                             (a or x ki value print) sum kaise print kre
+return  5+x;
+
+    
+
+ }
+
+ int main() {
+    
+int a=5;
+    
+sum(3);
+ 
+printf("%d",a);
+    
+return 0;
+
+}
+
+
+
+
+
+int sum(int x,int y)
+
+{
+    
+return x+y;
+
+}
+
+
+int main() {
+                                 (fuction ko print krega)
+int a=8;
+  
+int  b=5;
+  
+ 
+printf("%d",sum(5,3));
+    
+return 0;
+
+}
+
+
+
+int sum(int x,int y)
+
+{
+    
+printf("%d\n",x);
+    
+printf("%d\n",y);
+    
+return x+y;
+
+}
+
+                                       (function or 4 bar print krega)
+int main() 
+{
+    
+int a=9;
+  
+int  b=5;
+  
+sum(5,3);
+ 
+printf("%d\n", a);
+ 
+printf("%d",sum(5,3));
+    
+return 0;
+
+}
+
+
+
+
+
+
+int sum(int x,int y)
+
+{
+    
+printf("%d\n",x);
+
+return x+y;
+
+}
+
+
+int main() 
+{
+                                        (function or 4 bar print )
+int a=4;
+ 
+    
+int j=sum(5,3);
+    
+printf("%d\n",j);
+    
+printf("%d\n",a);
+    
+printf("%d",(sum(5,3)));
+    
+return 0;
+
+}

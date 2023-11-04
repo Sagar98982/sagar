@@ -1,0 +1,193 @@
+ char* display();
+
+   
+
+
+void main() 
+{
+
+
+
+char* str;
+
+
+str=display();
+
+ 
+printf("string is %s",str);                        
+
+}
+
+
+
+
+char* display()
+
+{
+    
+
+return "sagar";
+
+
+}
+
+
+
+
+
+
+
+
+int main()
+{
+
+char a[15],i,j,count=1,k=0;
+
+int b[5];
+
+printf("enter the element");
+
+fgets(a,15,stdin);
+
+
+for(i=0;a[i]!='\0';i++)
+
+{
+   
+ 
+k++;
+
+
+}
+
+
+printf("%d",k);
+
+
+for(i=0;a[i]!='\0';i++)
+
+{
+    
+b[i]=1;
+
+
+for(j=i+1;a[j]!='\0';j++)
+
+{
+
+
+if(a[i]==a[j])
+                                 
+
+{
+
+
+
+b[i]++;
+
+a[j]='0';
+
+break;
+
+}
+
+}
+    
+}
+
+
+//b[i]=count;
+
+
+//}
+
+
+printf("frequeny\n");
+
+
+
+for(i=0;i<5;i++)
+
+{
+    
+
+
+if(a[i]!='0')
+  {  
+    
+printf("%d\t%c",b[i],a[i]);
+    
+printf("\n");
+
+}
+
+
+//printf("\n");
+
+
+}
+
+
+return 0;
+
+}  
+
+  
+
+
+
+   
+
+
+
+
+
+
+
+
+
+char* display();
+ 
+   
+
+
+void main()                                        
+
+{
+
+ 
+
+char* str;
+
+str=display();
+
+printf("string is %s",str);
+
+
+}
+
+                                                            
+
+
+char* display()
+
+{
+    
+
+char* str="sagarhgjhgjhgjh";
+    
+
+//printf("%s",str);
+return str;
+
+
+}
+
+
+ 
+
+
+
+
+
+   

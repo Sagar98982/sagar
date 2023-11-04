@@ -1,0 +1,951 @@
+ char name[13],c=0,i;
+    
+printf("enter name of student");
+    
+fgets(name,13,stdin);
+   
+ printf("the name is %s",name);
+                 (name print and total character)
+ printf("\n");
+    
+
+for(i=0;name[i]!='\0';i++)
+
+{
+    
+c++;
+
+}
+
+printf("the total character%d\n",c);
+
+
+
+char name[13],c=0,i,vowels[6]={'a','e','i','o','u'};
+    
+printf("enter name of student");
+    
+fgets(name,13,stdin);
+    
+printf("the name is %s",name);
+   
+ printf("\n");
+                                                                  (vowels count)
+ 
+for(i=0;name[i]!='\0';i++)
+
+{
+    
+if(name[i]=='a'||name[i]=='e'||name[i]=='i'||name[i]=='o'||name[i]=='u')
+    
+{
+    
+c++;
+
+}
+}
+
+printf("the vowels  count %d\n",c);
+
+
+
+
+
+char name[20],c=0,i;
+    
+printf("enter name of student");
+    
+fgets(name,20,stdin);
+    
+printf("the name is %s",name);
+    
+printf("\n");
+    
+
+for(i=0;name[i]!='\0';i++)
+                      (punchuation count)-)
+{
+    
+if(name[i]==','||name[i]==';')
+    
+{
+    
+c++;
+
+}
+}
+
+printf("the punchuation  count %d\n",c);
+
+
+
+
+ char a[10],b[10],c[10];
+    int i,j;
+    printf("enter a\n");
+    fgets(a,10,stdin);
+     printf("enter b\n");
+    fgets(b,10,stdin);
+    printf("string a is %s",a);
+    printf("string b is %s",b);
+    printf("\n");
+    
+    for(i=0;a[i]!=5;i++)
+    {
+      c[i]=a[i]+b[i];
+     
+    }
+    for(j=0;a[i]!='\0';i++)
+    {
+    printf("string  is %s",c);
+}
+
+
+
+
+char a[10];
+    int i,
+    
+printf("enter a\n");
+    
+fgets(a,10,stdin);
+
+    
+printf("\n");
+    
+for(i=0;a[i]!='0';i++)
+    
+{
+     
+if(a[i]>=97&&a[i]<=122)
+     
+{
+         
+a[i]=a[i]-32;
+     
+}
+     
+else
+                                            (upper case)
+{
+         
+a[i]=a[i];
+     
+}
+     
+    
+} 
+    
+printf("string  is %s",a);
+
+
+
+
+char a[20],b[20],i,c=0;
+   
+printf("enter name of student");
+   
+fgets(a,20,stdin);
+ 
+printf("enter name of student");
+ 
+fgets(b,20,stdin);
+ 
+for(i=0;a[i]!='\0';i++)
+ 
+ 
+   
+{
+       
+if(a[i]!=b[i])
+       
+{
+          
+c++;
+                                         (two string are  equal or not)
+}
+
+}
+   
+if(c!=0)
+   
+{
+       
+printf("not same");
+   
+}
+   
+else
+   
+{
+       
+printf("same");
+   
+}
+
+   
+
+
+
+
+
+char name[20],c=0,i,c1=0;
+
+printf("enter name of student");
+
+fgets(name,20,stdin);
+
+printf("the name is %s",name);
+
+printf("\n");
+
+for(i=0;name[i]!='\0';i++)
+
+{
+if(name[i]>='A'&&name[i]<='Z')
+
+{
+    
+printf("uppercase\t%c",name[i]);
+                (uppercase\lowercase)
+c++;
+
+}
+    
+
+ else
+{
+    
+c1++;
+    
+printf("lowercase\t%c",name[i]);
+
+}
+
+printf("\n");
+
+
+}
+printf("the name is %s",name);
+
+printf("uppercase letters are %d",c);
+
+printf("lowercase letters are %d",c1);
+
+
+
+
+
+ char a[20],b[20],i,c=0;
+   
+int flag = 0;
+   
+printf("enter name of student");
+   
+fgets(a,20,stdin);
+ 
+printf("enter name of student");
+ 
+fgets(b,20,stdin);
+ 
+for(i=0;a[i]!='\0';i++)
+   
+{
+       
+if(a[i]!=b[i])
+       
+{
+        
+flag = 0;
+        
+break;
+       
+}
+else                                        (two string are equal and not)
+{
+           
+flag = 1;
+       
+}
+}
+   
+if(flag == 0)
+{
+       
+printf("not same ");
+   
+}else 
+{
+       
+printf("same");
+   
+}
+
+
+
+  char a[10],b[10];
+    
+int i;
+    
+printf("enter a\n");
+   
+ fgets(a,10,stdin);
+   
+ printf("string a is %s",a);
+              (copy string)   
+printf("\n");
+    
+int j=0;
+   
+ for(i=0;a[i]!='\0';i++)
+    
+{
+        
+b[j]=a[i];
+        
+j++;
+   
+ }
+   
+ printf("string b is %s",b);
+
+
+
+
+char a[10],b[10];
+
+int i,l,c=0,j=0;
+
+printf("enter a\n");
+
+fgets(a,10,stdin);
+
+printf("string a is %s",a);
+
+ printf("\n");
+                                   (reverse string)
+for(i=0;a[i]!='\0';i++)
+
+{
+    
+c++;
+    
+
+ }
+
+ printf("%d",c);
+
+ for(i=c-1;i>=0;i--)
+
+{
+    
+b[j]=a[i];
+    
+j++;
+
+}
+
+
+
+
+ char a[20],b[20],i,j;
+    
+printf("enter first string");
+    
+scanf("%s",&a);
+    
+printf("enter second string");
+    
+scanf("%s",&b);
+    
+for(i=0;a[i]!='\0';i++);
+    
+                     (concate) (only scanf not gets)
+ for(j=0;b[j]!='\0';j++,i++)  
+     
+ {
+          
+a[i]=b[j];
+          
+      
+}
+      
+a[i]='\0';
+      
+printf("\n output:%s",a);
+   
+
+printf("%s",b);
+
+
+
+char a[20],b[20],i,j,flag=0;
+    
+printf("\nenter first string");
+    
+scanf("%s",&a);
+    
+printf("enter the value");
+    
+   
+ for(i=0;a[i]!='\0';i++)
+   
+ {
+        
+j++;
+    
+}
+      
+for(i=0;a[i]!=j/2;i++)  
+      
+{
+         
+if(a[i]!=a[j-1])
+         
+{
+             
+flag=1;
+                                          (pallandrome)
+break;
+         
+}
+          
+j--;
+      
+}
+   
+if(flag==1)
+   
+{
+       
+printf("\n not pallandrome");
+   
+}
+ 
+
+
+
+
+
+  
+else
+   
+{
+       
+printf("\n pallandrome");
+   
+}
+ 
+
+
+
+
+ char a[20],b[20],i,j;
+    
+printf("enter first string");
+    
+fgets(a,20,stdin);
+    
+printf("enter the second string");
+    
+fgets(b,20,stdin);
+    
+for(i=0;a[i]!='\0';i++)
+    
+{
+                                             (swap without using 3rd variable)
+a[i]=a[i]+b[i];
+        
+b[i]=a[i]-b[i];
+        
+a[i]=a[i]-b[i];
+    
+}
+    
+    
+printf("%s",a);
+    
+printf("%s",b);
+
+
+
+
+
+char a[20],i;
+    
+printf("enter first character");
+    
+fgets(a,20,stdin);
+    
+for(i=0;a[i]!='\0';i++)
+    
+{
+       
+if(a[i]>=65&&a[i]<=97)
+                     (toggle case string)
+{
+           
+a[i]+=32;
+       
+}
+       
+else if(a[i]>=97&&a[i]<=122)
+       
+{
+           
+a[i]-=32;
+       
+}
+       
+       
+printf("%s",a);
+    
+}  } 
+
+
+
+
+
+ char a[20],i;
+    
+printf("enter first character");
+    
+fgets(a,20,stdin);
+    
+for(i=0;a[i]!='\0';i++)
+    
+{
+                                              (upper case)
+if(a[i]>=97&&a[i]<=122)
+       
+{
+           
+a[i]-=32;
+       
+}
+       
+printf(" upper case %s",a);
+    
+}
+    
+
+
+
+
+
+
+ char a[20],b[20],i,j,c=0,c1=0,flag=0;
+
+printf("enter first string");
+
+fgets(a,20,stdin);
+
+printf("enter the second string");
+
+fgets(b,20,stdin);
+
+for(i=0;a[i]!='\0';i++)
+
+{
+    
+c++;
+
+}
+
+printf("%d",c);
+
+for(j=0;b[j]!='\0';j++)
+
+{
+    
+c1++;
+
+}
+
+printf("%d",c1);
+                          (anagram)
+for(i=0;a[i]!='\0';i++)
+
+{
+    
+for(j=0;b[j]!='\0';j++)
+    
+{
+        
+if(a[i]==b[j])
+        
+{
+            
+flag++;
+        
+}
+    
+}
+}
+
+if(c==flag)
+
+{
+    
+printf("anagram");
+
+}
+
+else
+
+{
+    
+printf("not anagram");
+
+}
+
+
+  
+
+
+
+
+
+
+
+
+int main() 
+{
+    
+char a[15];
+    
+int i,j,c=0,f=0,n,d;
+    
+printf("enter the first string");
+    
+
+ scanf("%s",&a);  
+printf("enter the no of parts you want to divide string");
+    
+scanf("%d",&n);
+    
+for(i=0;a[i]!='\0';i++)
+    
+{
+        
+c++;
+                                                               (divide no of parts)
+}
+    
+printf("%d",c);
+    
+//c=c-1;
+    
+if(c%n==0)
+    
+{
+       
+d= c/n;
+       
+for(j=0;j<=n;j++)
+       
+{
+           
+for(i=f;i<f+d;i++)
+       
+{
+       
+printf("%c",a[i]);
+       
+}
+       
+printf("\n");
+      
+ f=i;
+    
+}}  
+
+
+
+
+
+char a[15];
+    
+int i,j,c=0;
+    
+printf("enter the first string");
+    
+fgets(a,15,stdin);
+    
+for(i=0;a[i]!='\0';i++)
+    
+{
+        
+c++;
+                                         (space of character)
+}
+    
+for(i=0;a[i]!='\0';i++)
+    
+{
+        
+if(a[i]==' ')
+        
+        
+{
+           
+ a[i]='*';
+        
+}}
+       
+ printf("%s",a);
+
+
+
+
+
+
+
+
+char a[15],b[15],len=5;
+    
+int i,j,c=0,c1=0;
+    
+printf("enter the first string");
+    
+fgets(a,15,stdin);
+     
+printf("enter the second string");
+    
+fgets(b,15,stdin);
+    
+for(i=0;a[i]!='\0';i++)
+    
+{
+        
+c++;
+    
+}
+                                          (concate recheck)
+printf("%d",c);
+    
+for(j=0;b[j]!='\0';j++)
+    
+{
+        
+c1++;
+    
+}
+     
+printf("%d",c1);
+
+for(i=0;i<=c1;i++)
+
+{
+    
+a[c+i]=b[i];
+}
+
+
+printf("%s",a);
+ 
+
+
+
+  char a[15],b[15],len=5;
+    
+int i,j,c=0,c1=0;
+    
+printf("enter the first string");
+    
+fgets(a,15,stdin);
+    
+ printf("enter the second string");
+    
+fgets(b,15,stdin);
+    
+for(i=0;a[i]!='\0';i++)
+    
+{
+        
+c++;
+                                         (concate recheck)
+}
+    
+printf("%s",&c);
+    
+for(j=0;b[j]!='\0';j++) 
+    
+{
+        
+c1++;
+    
+}
+     
+printf("%s",&c1);
+     
+i=0;
+
+for(j=c-1;j<=c1+c;j++)
+
+{
+    
+a[j]=b[i];
+    
+i++;
+
+}
+
+printf("%s",a);
+
+
+
+
+
+
+ char a[15],b[15],i,j,count=1,k;
+
+printf("enter the element");
+
+fgets(a,15,stdin);
+
+for(i=0;a[i]!='\0';i++)
+
+{
+   
+ k++;
+
+}
+
+printf("%s",k);
+
+for(i=0;a[i]!='\0';i++)
+
+{
+
+for(j=i+1;b[j]!='\0';j++)
+
+{
+
+if(a[i]==a[j])
+                                 (frequency recheck)
+{
+
+count++;
+a[j]=-1;
+ 
+break;
+
+}
+}
+
+b[i]=count;
+
+
+}
+
+printf("frequeny\n");
+
+
+for(i=0;a[i]!='\0';i++)
+
+
+{
+    
+
+if(a[i]!=-1)
+    
+
+{
+
+printf("%d",a[i],b[j]);
+
+
+}
+
+
+printf("\n");
+
+
+}
+   
+
+
+
+
+
+
+
+
+
+
+int main()
+{
+char a[15],i,j,count=1,k=0;
+int b[5];
+printf("enter the element");
+fgets(a,15,stdin);
+
+for(i=0;a[i]!='\0';i++)
+
+{
+   
+ k++;
+
+}
+
+printf("%d",k);
+
+for(i=0;a[i]!='\0';i++)
+
+{
+    count=1;
+
+for(j=i+1;b[j]!='\0';j++)
+
+{
+
+if(a[i]==a[j])
+                                 
+{
+
+count++;
+a[j]=-1;
+
+break;
+}
+}
+
+b[i]=count;
+
+}
+
+printf("frequeny\n");
+
+
+for(i=0;a[i]!='\0';i++)
+
+{
+    
+
+if(a[i]!=-1)
+    
+{
+
+printf("%c",a[i]);
+
+}}
+for(i=0;i<15;i++)
+{
+    printf("%d",b[i]);
+}
+
+printf("\n");
+
+
+
+return 0;
+}  
+
+  
+
+
+FREQUENCY CHECK IN STRING
+
+
+    

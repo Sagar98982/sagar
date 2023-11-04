@@ -1,0 +1,234 @@
+int board [3][3],i,j,k=1;
+     
+
+void draw()
+      
+
+{
+    
+
+for(i=0;i<=2;i++)
+
+
+{
+        
+
+for(j=0;j<=2;j++)
+        
+
+{
+
+
+printf("%c ",board[i][j]);
+
+if(j>=0&&j<=1)
+
+{
+            
+
+printf("|");
+        
+
+}
+    }
+    
+
+
+printf("\n");
+    
+
+
+if(i>=0&&i<=1)
+
+
+{
+       
+
+printf("-------\n");
+                            
+
+}
+    
+
+printf("\n");
+
+
+}
+}
+
+void move(char symbol,int r,int c)
+
+{
+    
+board [r][c]=symbol;
+
+}
+
+ 
+
+int checkwin(char c)
+
+{
+                                                              (tic tac game.....original process)
+for (i=0;i<=2;i++)
+   
+{
+       
+if(board[i][0]==c && board[i][1]==c && board[i][2]==c)
+       
+{
+           
+return 1;
+       
+}
+   }
+   
+for(j=0;j<=2;j++)
+   
+{
+       
+if(board[0][j]==c && board[1][j]==c && board[2][j]==c)
+       
+{
+           
+return 1;
+       
+}
+    }
+    
+    
+        
+if(board[0][2]==c && board[1][1]==c && board[2][0])
+        
+{
+            
+return 1;
+        
+}
+
+if(board[0][0]==c && board[1][1]==c && board[2][2])
+        
+{
+            
+return 1;
+        
+}
+
+    
+
+    
+}
+   
+
+
+
+
+int main() 
+{
+ 
+
+int c=0;
+
+char player1= 'x';
+
+char player2= 'o';
+   
+
+char currentplayer=player1;   
+
+
+int rows,column;
+
+for(i=0;i<=2;i++)
+    
+
+{
+        
+
+for(j=0;j<=2;j++)
+        
+
+{
+            
+
+board[i][j]=' ';
+
+
+}
+    }
+
+while(c<9)
+
+{
+    
+
+
+draw();
+ 
+
+printf("player 1 %c\n",currentplayer);
+ 
+
+printf("enter the rows & column");
+ 
+
+scanf("%d %d",&rows,&column);
+ 
+
+if(rows<0 || rows>2 || column<0 || column>2 || board[rows][column]!=' ')
+ 
+
+{
+     
+
+printf("invalid move\n");
+
+
+continue;
+
+}
+
+
+else
+{
+    
+
+
+move(currentplayer,rows,column);
+
+c++;
+
+
+
+if(checkwin(currentplayer))
+
+{
+
+char winner=currentplayer;
+break;
+
+}
+    
+if(currentplayer==player1)
+    
+{
+    
+currentplayer=player2;
+
+}
+
+else
+
+{
+    
+currentplayer=player1;
+
+}
+
+
+}
+}
+ 
+return 0; 
+
+}

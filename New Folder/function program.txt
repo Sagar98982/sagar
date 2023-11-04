@@ -1,0 +1,2631 @@
+1....
+  
+void sum();
+
+void subtract();
+    
+void multiply();
+    
+void moduler();
+    
+void divide();
+
+int main () 
+{
+
+
+sum();
+ 
+    
+    
+    
+    
+    
+   
+return 0;
+
+
+}
+ 
+ void subtract ()
+  
+{
+      
+int a,b,c;
+      
+printf("enter the amount");
+      
+scanf("%d",&a);
+      
+printf("enter the second amount");
+              (sum,subtract,multiply,divide,moduler function)    
+scanf("%d",&b);
+      
+c=a-b;
+      
+printf("%d",c);
+  
+}
+
+void multiply()
+
+{
+    
+int a,b,c;
+      
+printf("enter the amount");
+      
+scanf("%d",&a);
+      
+printf("enter the second amount");
+      
+scanf("%d",&b);
+      
+c=a*b;
+     
+ printf("%d",c);
+
+}
+
+void divide()
+
+{
+    
+int a,b,c;
+      
+printf("enter the amount");
+      
+scanf("%d",&a);
+      
+printf("enter the second amount");
+      
+scanf("%d",&b);
+      
+c=a/b;
+     
+ printf("%d",c);
+
+}
+
+void moduler()
+
+{
+  
+int a,b,c;
+      
+printf("enter the amount");
+      
+scanf("%d",&a);
+      
+printf("enter the second amount");
+      
+scanf("%d",&b);
+      
+c=a%b;
+      
+printf("%d",c);   
+
+}
+ 
+void sum()
+ 
+{
+      
+
+int a,b,c;
+      
+printf("enter the amount");
+      
+scanf("%d",&a);
+      
+printf("enter the second amount");
+      
+scanf("%d",&b);
+      
+c=a+b;
+      
+printf("%d",c);   
+ 
+}
+ 
+
+
+
+
+
+
+2.....
+
+ int add();
+    
+void subtract();
+    
+void multiply();
+    
+void moduler();
+    
+void divide();
+
+
+int main () 
+{
+ 
+   
+int choice;
+  
+char ch;
+  
+  
+do{
+  
+printf("add = 1");
+  
+printf("subtract = 2");
+  
+printf("multiply = 3");
+                       (j ka square)
+printf("divide  = 4");
+  
+printf("moduler = 5");
+  
+printf("enter your choice  = ");
+  
+scanf("%d",&choice);
+  
+switch (choice)
+  
+{
+      
+case 1: int j=add();
+                
+printf("%d",j*j);
+      
+break;
+      
+case 2: subtract();
+      
+break;
+      
+case 3: multiply();
+      
+break;
+      
+case 4: divide();  
+      
+break;
+      
+case 5: moduler();
+      
+break;
+      
+default :printf("invalid");
+      
+  
+}
+  
+printf("do you want continue = ");
+  
+scanf("%s",&ch);
+  
+}
+  
+while(ch=='y'); 
+
+
+  
+    
+    
+    
+    
+  
+ return 0;
+
+
+}
+  
+
+void subtract ()
+  
+{
+      
+int a,b,c;
+      
+printf("enter the amount");
+      
+scanf("%d",&a);
+      
+printf("enter the second amount");
+      
+scanf("%d",&b);
+      
+c=a-b;
+      
+printf("%d",c);
+  
+}
+
+void multiply()
+
+{
+    
+int a,b,c;
+      
+printf("enter the amount");
+      
+scanf("%d",&a);
+      
+printf("enter the second amount");
+      
+scanf("%d",&b);
+      
+c=a*b;
+      
+printf("%d",c);
+
+}
+
+void divide()
+
+{
+    
+int a,b,c;
+     
+ printf("enter the amount");
+      
+scanf("%d",&a);
+      
+printf("enter the second amount");
+      
+scanf("%d",&b);
+      
+c=a/b;
+      
+printf("%d",c);
+
+}
+
+void moduler()
+
+{
+  
+int a,b,c;
+      
+printf("enter the amount");
+      
+scanf("%d",&a);
+      
+printf("enter the second amount");
+      
+scanf("%d",&b);
+      
+c=a%b;
+      
+printf("%d",c);   
+
+}
+ 
+int add()
+ 
+{
+      
+
+int a,b,c;
+      
+printf("enter the amount");
+      
+scanf("%d",&a);
+      
+printf("enter the second amount");
+      
+scanf("%d",&b);
+      
+c=a+b;
+     
+return c;  
+ 
+}
+ 
+ 
+ 
+
+
+3...........
+
+ int opening();
+
+i=1000;
+
+int main() 
+{
+
+    
+
+printf("%d",i);
+
+    
+    
+return 0;
+
+
+}
+
+
+
+int opening()
+
+{
+
+    
+return i;
+
+}
+
+
+
+4.......
+  int opening();
+    
+
+int i,amount;
+
+int main() 
+{
+
+int choice;
+
+char ch;
+
+do{
+    
+printf("press 1: opening balance\n");
+    
+printf("enter your choice = ");
+    
+scanf("%d",&choice);
+    
+switch (choice)
+                                 (single opening balance )
+{
+        
+case 1:i= opening();
+        
+printf("opening balance %d",i);
+        
+break;
+        
+default:  
+printf("invalid choice");
+        
+            
+}
+
+}
+
+while(ch=='y');
+
+    
+return 0;
+
+
+}
+
+
+
+int opening()
+
+{
+    
+amount=1000;
+
+
+return amount;
+   
+
+
+
+
+ amount=1000;
+    
+
+int i,amount;
+
+
+int main() 
+{
+
+int choice;
+
+char ch;
+
+do{
+    
+printf("press 1: opening balance\n");
+    
+printf("enter your choice = ");
+                      (opening amount = not function declare)
+scanf("%d",&choice);
+    
+switch (choice)
+    
+{
+        
+case 1:i= opening();
+        
+printf("opening balance %d",i);
+        
+break;
+        
+default:  printf("invalid choice");
+           
+}
+}
+
+while(ch=='y');
+
+    
+return 0;
+
+
+
+}
+
+
+
+int opening()
+
+{
+    
+
+return amount;
+
+
+
+
+
+
+
+
+
+
+ int opening();
+ 
+int deposit();
+    
+
+int d,i,amount;
+
+
+int main() {
+
+int choice;
+
+char ch;
+
+do{
+    
+printf("press 1: opening balance\n");
+    
+printf("press 2: deposit\n ");
+    
+printf("enter your choice = ");
+    
+scanf("%d",&choice);
+    
+switch (choice)
+    
+{
+        
+case 1:i= opening();
+                        (opening and deposit balance)
+printf("opening balance %d",i);
+       
+ break;
+        
+case 2:d=deposit();
+        
+printf("deposit balance %d",d);
+       
+ break;
+        
+default:  printf("invalid choice");
+           
+}}
+
+while(ch=='y');
+
+    
+return 0;
+
+}
+
+
+
+
+
+int opening()
+
+{
+    
+amount=10000;
+
+return amount;
+    
+
+}
+
+int deposit()
+
+{
+    
+d=5000;
+    
+return d;
+
+}
+
+    
+
+}
+
+
+
+6......
+ int opening();
+ 
+int deposit();
+    
+
+int d,i,amount;
+
+int main() 
+{
+
+int choice;
+
+char ch;
+
+do{
+    
+printf("press 1: opening balance\n");
+    
+printf("press 2: deposit\n ");
+   
+ printf("enter your choice = ");
+    
+scanf("%d",&choice);
+    
+switch (choice)
+    
+{
+        case 1:i= opening();
+        
+printf("opening balance %d",i);
+       
+ break;
+                                  (opening and deposit == using do you want to continue)
+case 2:d=deposit();
+       
+ printf("deposit balance %d",d);
+        
+break;
+        
+default:  printf("invalid choice");
+           
+}
+           
+printf("\ndo you want to continue");
+           
+scanf("%s",&ch);
+
+}
+
+while(ch=='y');
+
+    
+return 0;
+
+}
+
+
+
+int opening()
+
+{
+    
+amount=10000;
+
+return amount;
+    
+
+}
+
+int deposit()
+
+{
+    
+d=5000;
+    
+return d;
+
+
+}
+
+
+
+
+
+
+
+ int opening();
+ 
+int deposit();
+    
+
+int d,d1=0,i,amount=10000;
+
+int main() 
+{
+
+int choice;
+
+char ch;
+
+do{
+    
+printf("press 1: opening balance\n");
+    
+printf("press 2: deposit\n ");
+    
+printf("enter your choice = ");
+    
+scanf("%d",&choice);
+    
+switch (choice)
+   
+ {
+                                             (opening+deposit balance)
+case 1:
+        
+printf("opening balance %d",amount);
+        
+break;
+        
+case 2:d1=deposit(amount);
+        
+printf("deposit balance %d",d1);
+        
+break;
+        
+default:  printf("invalid choice");
+           
+}
+           
+printf("\ndo you want to continue");
+           
+scanf("%s",&ch);
+
+}
+
+while(ch=='y');
+
+    
+return 0;
+}
+
+
+
+// int opening()
+
+// {
+
+//     amount=10000;
+
+// return amount;
+    
+// }
+
+int deposit(int k)
+
+{
+    
+printf("enter the deposit amount");
+    
+scanf("%d",&d);
+    
+return d+k;
+
+}
+
+    
+
+
+
+
+
+
+
+   
+int opening();
+    
+int deposit();
+    
+int amount,d;
+
+int main() 
+{
+   
+int choice,i;
+   
+char ch;
+   
+do{
+  
+ printf("press 1:opening balance\n");
+   
+printf("press 2:deposit balance\n");
+   
+printf("enter your choice = ");
+   
+scanf("%d",&choice);
+   
+switch (choice)
+   
+{
+                                               (opening and deposit fixe value= d ko global m decalre kiya h) 
+case 1:i= opening();
+       
+printf("opening balance %d\n",i);
+                          opening=10000
+break;
+                                                     deposit=5000
+case 2:d=deposit();
+       
+printf("deposit balance %d\n",d);
+       
+break;
+       
+default:printf("invalid choice");
+   
+}
+  
+printf("/n do you want to continue =");
+   
+scanf("%s",&ch);
+   
+}
+
+while(ch=='y');
+
+
+    
+return 0;
+    
+    
+}
+   
+ 
+    
+int opening()
+    
+{
+        
+amount=10000;
+        
+return amount;
+    
+}
+    
+int deposit()
+   
+{
+       
+d=5000;
+       
+return d;
+    
+}
+
+
+
+(opening and deposit)fixed
+
+
+
+
+
+ int deposit();
+    
+int amount,d;
+
+int main() {
+   
+int choice,i;
+   
+char ch;
+   
+do{
+   
+printf("press 1:opening balance\n");
+   
+printf("press 2:deposit balance\n");
+   
+printf("enter your choice = ");
+   
+scanf("%d",&choice);
+   
+switch (choice)
+   
+{
+       
+case 1:i= opening();
+       
+printf("opening balance %d\n",i);
+      
+ break;
+      
+ case 2:d=i+deposit();
+                       (opening + deposit fixed value== d global m declare kiya h)
+printf("deposit balance %d\n",d);
+       
+break;
+                                                   opening=10000
+default:printf("invalid choice");
+   
+}
+                                                         deposit=opening+deposit
+printf("/n do you want to continue =");
+   
+scanf("%s",&ch);
+                                                 = 10000+5000=15000
+}
+
+while(ch=='y');
+
+
+    
+return 0;
+    
+    
+}
+    
+    
+int opening()
+    
+{
+        
+amount=10000;
+        
+return amount;
+    
+}
+    
+int deposit()
+   
+{
+       
+d=5000;
+       
+return d;
+    
+}
+
+
+
+
+
+
+int deposit();
+    
+
+int amount,d;
+
+
+int main() 
+{
+   
+
+int choice,i;
+   
+
+char ch;
+   
+
+do{
+   
+
+printf("press 1:opening balance\n");
+   
+
+printf("press 2:deposit balance\n");
+   
+
+printf("enter your choice = ");
+   
+
+scanf("%d",&choice);
+   
+
+ switch (choice)
+   
+                                    (opening balnace not declared == ?== print ok ho rha h  )
+{
+       
+
+case 1:i= opening();
+       
+
+ printf("opening balance %d\n",i);
+      
+       (opening + deposit balnce ==== new method)
+break;
+      
+ 
+case 2:d=deposit(i);
+                       
+
+printf("deposit balance %d\n",d);
+       
+
+break;
+                                                   
+
+default:printf("invalid choice");
+   
+
+}
+                                                        
+
+printf("/n do you want to continue =");
+   
+
+scanf("%s",&ch);
+                                                
+
+}
+
+
+while(ch=='y');
+
+
+    
+
+return 0;
+    
+    
+
+}
+    
+    
+
+int opening()
+    
+
+{
+        
+
+amount=10000;
+        
+
+return amount;
+    
+
+}
+    
+
+int deposit(int k)
+   
+
+{
+       
+
+d=5000;
+       
+
+return d+k;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ int opening();
+
+
+int deposit();
+
+int withdraw(); 
+
+int closing();
+
+
+int d,d1=0,i,amount=10000,w1,w,c,l;
+
+
+
+int main() 
+{
+
+
+int choice;
+
+char ch;
+
+
+do{
+    
+printf("press 1: opening balance\n");
+    
+
+printf("press 2: deposit\n ");
+    
+
+printf("enter your choice = ");
+    
+
+scanf("%d",&choice);
+    
+
+switch (choice)
+   
+
+ {
+                                             
+
+case 1:
+    
+printf("opening balance %d",amount);
+        
+
+break;
+        
+
+case 2:d1=deposit(amount);
+        
+
+printf("deposit balance %d",d1);
+
+ break;
+    
+
+case 3:w1=withdraw(d1);
+   
+printf("after withdrawl balance %d",w1);     
+
+break;
+
+case 4:l=closing(w1);
+ 
+printf("after closing balance %d",l);
+ 
+break;
+default:  printf("invalid choice");
+           
+
+}
+           
+printf("\ndo you want to continue");
+           
+
+ scanf("%s",&ch);
+
+                            (isme opening balance ki definition nhi di ? === print ok ho rha h)
+}
+
+
+while(ch=='y');
+
+    
+
+ return 0;
+}
+
+
+
+
+                                          (opening balance=deposit balance= withdraw balance= closing balance)
+// int opening()
+
+
+// {
+
+
+//     
+//amount=10000;
+
+
+// 
+//return amount;
+    
+
+// 
+}
+
+
+int deposit(int k)
+
+
+{
+    
+
+printf("enter the deposit amount");
+    
+
+scanf("%d",&d);
+    
+
+return d+k;
+
+
+}
+
+int withdraw(int k1)
+
+{
+    
+printf("enter the withdraw amount");
+    
+scanf("%d",&w);
+    
+return k1-w;
+
+}
+    
+
+int closing(int c)
+
+{
+    
+return c;
+}
+
+
+
+
+
+
+ int a;
+
+   
+int *g;
+   
+g=&a;
+                                         ()
+printf("%p\n",g);
+   
+printf("%d",*g);
+
+
+
+
+
+
+
+
+int n,k,square;
+    
+int count=1;
+    
+printf("enter the no. = ");
+    
+scanf("%d",&n);
+    
+k=n;
+    
+square=n*n;
+    
+printf("%d\n",square);
+    
+while(n!=0)
+    
+{
+                                        (automorphic number)
+count=count*10;
+        
+n=n/10;
+    
+}
+    
+if(square%count==k)
+    
+{
+        
+printf("is automorphic no");
+    
+}
+    
+else
+    
+{
+        
+printf("not automorphic no");
+    
+}
+     
+
+
+
+ int a,i;
+   
+printf("enter the no");
+   
+scanf("%d",&a);
+   
+i=a%10;
+   
+if(a%7==0)
+   
+{
+       
+printf("this is a buzz no");
+                   (buzz number)
+}
+   
+else if(i==7)
+   
+{
+       
+printf("this is a buzz no");
+       
+   
+}
+   
+else
+   
+{
+       
+printf("this is not a buzz no");
+   
+}
+   
+
+
+
+
+int n,square,flag=0;
+   
+printf("enter the number");
+   
+scanf("%d",&n);
+   
+square=n*n;
+   
+printf(" square is %d",square);
+  
+// printf("enter the square number");
+   
+//scanf("%d",&square);
+   
+while(n>=1)
+   
+{
+       
+if(n%10!=square%10)
+       
+{
+           
+           
+flag=1;
+                                       (automorphic number)
+break;
+       
+}
+   
+  
+ n=n/10;
+   
+}
+   
+if(flag==1)
+   
+{
+       
+printf("%d the no is not automorphic");
+       
+   
+}
+   
+else
+   
+{
+       
+printf("%d the no is automorphic");
+   
+}
+   
+
+
+
+
+
+int a,i,b,r,f,sum=0;
+   
+printf("enter the no of a");
+   
+scanf("%d",&a);
+   
+b=a;
+   
+while(b!=0)
+   
+{
+       
+r=b%10;
+       
+   
+   
+for(i=r-1;i>=1;i--)
+   
+{
+                                           (peterson no)
+r=r*i;
+   
+}
+   
+sum=sum+r;
+
+   b=b/10;
+
+ }
+   
+
+if (sum==a)
+
+{
+   
+ printf("peterson no");
+   
+ 
+}
+
+else
+
+{
+
+printf("not peterson no");
+}
+
+
+
+
+
+
+
+
+int fact (int);
+
+
+int main() 
+{
+    
+    
+int n,j;
+    
+printf("enter no");
+    
+scanf("%d",&n);
+    
+    
+j=fact(n);
+   
+ printf("%d",j);
+   
+ return 0;
+
+}
+
+int fact(int n)
+
+{
+    
+if(n==0)
+                               (recursion)
+{
+      
+ return 0; 
+    
+}
+    
+else if(n==1)
+    
+{
+       
+ return 1;
+    
+}
+    
+else
+    
+{
+        
+return n*fact(n-1);
+    
+}
+        
+
+}
+   
+
+
+
+
+int a,b,d;
+    
+float c;
+    
+printf("enter the number ");
+    
+scanf("%d",&a);
+    
+b=a+1;
+    
+d=b/2;
+    
+c=0;
+    
+while(d!=c)
+    
+{
+        \\
+c=d;
+                                             (sunny number)
+d=((b/c)+c)/2;
+        
+    
+}
+    
+if(b%d==0)
+    
+{
+        
+printf("it is a sunny number");
+        
+    
+}
+    
+else
+    
+{
+        
+printf("it is a not sunny number");
+
+}
+
+
+
+
+
+int a,remainder,sum=0,d;
+    
+printf("enter the number");
+    
+scanf("%d",&a);
+    
+d=a;
+    
+while(d>=1)
+    
+{
+        
+remainder=d%10;
+        
+sum=sum+remainder*remainder*remainder;
+        
+d=d/10;
+    
+}
+                                                            (armstrong number)
+if(sum==a)
+    
+{
+        
+printf("this number is armstrong number\n");
+    
+}
+    
+else
+    
+{
+        
+printf("this number is not armstrong number\n");
+    
+}
+
+
+
+
+ int num;
+    
+float b,squarert;
+    
+printf("enter the number");
+    
+scanf("%d",&num);
+    
+squarert=num/2;
+    
+b=0;
+    
+while(squarert!=b)
+                                  (squareroot)
+{
+        
+b=squarert;
+        
+printf("value of b %f\n",b);
+        
+squarert=(num/b+b)/2;
+        
+printf("value odf squarert %f\n",squarert);
+        
+        
+    
+}
+    
+printf("square root of %d is %f",num,squarert);
+   
+
+
+
+
+void swap(int, int);
+
+
+int main() 
+{
+    
+    
+int a,b;
+    
+a=10;
+    
+b=20;
+    
+swap(a,b);
+    
+printf("in main sum %d %d",a,b);
+
+
+    
+return 0;
+                                       (call by value)
+}
+
+void swap (int i, int j)
+
+{
+    
+int k;
+    
+k=i;
+    
+i=j;
+    
+j=k;
+    
+printf(" in defination sum %d %d\n",i,j);
+
+}
+
+
+
+
+
+void swap(int*, int*);
+
+
+
+int main() 
+{
+    
+                                            (isme niche return ni diya to function ka adress kaise utha rha h ??)
+int a,b;
+    
+a=10;
+    
+b=20;
+    
+swap(&a,&b);
+                                     (call by reference)
+printf("in main sum %d %d",a,b);
+
+
+    
+return 0;
+
+}
+
+
+void swap (int *i, int *j)
+
+{
+    
+int k;
+    
+k=*i;
+    
+*i=*j;
+    
+*j=k;
+    
+printf(" in defination sum %d %d\n",*i,*j);
+
+}
+
+
+
+
+
+
+ int square(int);
+
+int j,area;
+
+
+int main() {
+   
+  
+float  p=3.14;
+    
+int j=square(10);
+    
+area=p*j;
+   
+printf("sum is %d",area);
+                 (uper function declare and main and lower definition)
+}
+
+
+int  square(int r)
+
+{
+   
+return r*r;
+
+}
+
+
+
+ 
+  int square()
+    
+{
+
+int r;
+
+r=5;
+
+
+return r*r;
+
+}
+
+
+
+int main()                               (uper definition and main)
+{
+   
+  
+
+float  p=3.14;
+                            
+
+int j=square();
+    
+int area;
+
+area=p*j;
+   
+
+printf("sum is %d",area);
+   
+return 0;
+
+
+}
+
+
+
+
+ 
+	
+
+
+
+
+
+
+int avg (int[],int);
+
+int main() {
+    
+int marks[5]={10,20,30,40,50},size,average;
+                                    (passing array in function)
+ size=sizeof(marks)/sizeof (marks[0]);
+    
+average=avg(marks,size);
+   
+ printf("average is %d\n",average);
+    
+//printf("inside main size of array is (in bytes):%d",sizeof (marks));
+
+}
+
+int avg(int marks1[],int size)
+
+{
+    
+int i,sum=0,average=0;
+    
+for(i=0;i<=size;i++)
+    
+{
+        
+sum=sum+marks1[i];
+    
+}
+    
+average=sum/size;
+    
+//printf("inside avg function size of array is (in bytes):%d\n",sizeof (marks1));
+    
+return average;
+}
+
+
+
+
+int avg (int[],int);
+
+
+int main() {
+    
+
+int marks[5]={10,20,30,40,50},size,average;
+                                    
+ 
+size=sizeof(marks)/sizeof (marks[0]);
+    
+
+average=avg(marks,size);
+   
+                                                          (passing array in function 
+printf("average is %d\n",average);
+    
+
+ //printf("inside main size of array is (in bytes):%d",sizeof (marks));                    =original)
+ 
+}
+
+
+int avg(int marks1[],int size)
+
+  
+{
+    
+
+int i,sum=0,average=0;
+    
+
+for(i=0;i<=size;i++)
+    
+
+{
+        
+
+sum=sum+marks1[i];
+    
+
+}
+    
+
+average=sum/size;
+    
+
+printf("inside avg function size of array is (in bytes):%d\n",sizeof (marks1[0]));
+    
+
+return average;
+
+}
+
+
+
+
+
+
+
+
+
+ void display(char[]);
+
+    
+    
+int main() {
+
+
+char str[]="sagar";
+
+display(str);
+                              (passing string an argument function == only dsplay)
+}
+
+
+void display(char str[])
+
+{
+   
+ printf("string is %s",str);
+
+}
+
+
+
+
+
+
+ void modify(char[],char[]);
+
+
+int main() {
+  
+char str1[]="sagar";
+  
+char str2[]="grover";
+  
+modify(str1,str2);
+  
+
+}
+
+void modify(char str1[],char str2[])
+                           (passing string in argument function)
+{
+    
+int i,length=0;
+    
+for(i=0;str1[i]!='\0';i++)
+    
+{
+        
+length=length+1;
+      
+    
+}
+    
+str2[1]='h';
+    
+printf("length of 1st string is %d\n",length);
+   
+ printf(" both the strings are %s %s",str1,str2);
+}
+
+
+
+
+
+
+
+char* display();
+
+    
+
+void main() 
+{
+
+
+char* str;
+
+str=display();
+
+ printf("string is %s",str);                        (return string from a function == sagar print )
+}
+
+
+
+char* display()
+
+{
+    
+return "sagar";
+
+}
+
+
+
+
+
+char* display();
+ 
+   
+
+void main()                                        (return string from a function == null print) 
+{
+
+ 
+char* str;
+str=display();
+printf("string is %s",str);
+
+}
+
+                                                            recheck
+
+char* display()
+
+{
+    
+char str[]="sagar";
+    
+return str;
+
+}
+
+
+
+
+
+
+char* display();
+
+    
+
+void main() 
+{
+
+
+char* str;
+
+str=display();
+
+str[0]='z';
+
+printf("string is %s",str);
+                 (return string from a function == segmentation fault)
+}
+
+
+
+char* display()
+
+{
+    
+char* str="sagar";
+    
+    
+return str;
+
+}
+
+
+
+
+
+void modify(char*,char*);
+
+
+int main() {
+  
+char str1[]="sagar";
+  
+char str2[]="grover";
+  
+modify(str1,str2);
+  
+                                      (passing string in argument function == (*) pointer using)
+}
+
+
+ void modify(char* str1,char* str2)
+
+{
+    
+int i,length=0;
+    
+for(i=0;str1[i]!='\0';i++)
+    
+{
+        
+length=length+1;
+      
+    
+}
+    
+str2[1]='h';
+    
+printf("length of 1st string is %d\n",length);
+    
+printf(" both the strings are %s %s",str1,str2);
+}
+
+
+
+
+
+
+ int board [3][3],i,j;
+     
+ void draw()
+      
+{
+    
+for(i=0;i<=2;i++)
+    
+{
+        
+for(j=0;j<=2;j++)
+        
+{
+            
+printf("x",board[i][j]);
+        
+        
+if(j>=0&&j<=1)
+        
+{
+            
+printf("|");
+        
+}
+    }
+    
+printf("\n");
+    
+if(i>=0&&i<=1)
+    
+{
+       
+ printf("-------\n");
+                  (tic tac game...1 process)
+}
+    
+printf("\n");
+    
+}
+}
+
+
+
+
+
+
+int main() 
+{
+   
+
+ 
+char player1= 'x';
+   
+char player2= 'o';
+    
+   
+for(i=0;i<=2;i++)
+    
+{
+        
+for(j=0;j<=2;j++)
+        
+{
+            
+board[i][j]=' ';
+        
+}
+    }
+
+   
+ draw();
+  
+
+
+  
+return 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+ int board [3][3],i,j;
+     
+ 
+void draw()
+      
+
+{
+    
+
+for(i=0;i<=2;i++)
+    
+
+{
+        
+
+for(j=0;j<=2;j++)
+        
+
+{
+            
+
+printf("x",board[i][j]);
+        
+        
+
+if(j>=0&&j<=1)
+        
+
+{
+            
+
+printf("|");
+        
+
+}
+    }
+    
+
+printf("\n");
+    
+
+if(i>=0&&i<=1)
+    
+
+{
+       
+ 
+printf("-------\n");
+                     (tic tac game....2 process)          
+
+}
+    
+
+printf("\n");
+    
+
+}
+}
+
+
+
+
+
+
+
+
+int main() 
+{
+   
+
+ 
+
+char player1= 'x';
+   
+
+char player2= 'o';
+   
+ 
+char currentplayer=player1;   
+   
+   
+int rows,column;
+
+for(i=0;i<=2;i++)
+    
+
+{
+        
+
+for(j=0;j<=2;j++)
+        
+
+{
+            
+
+board[i][j]=' ';
+        
+
+}
+    }
+
+   
+ 
+draw();
+ 
+printf("player 1 %c\n",currentplayer);
+ 
+printf("enter the rows & column");
+ 
+scanf("%d %d",&rows,&column);
+ 
+if(rows<0 && rows>2 || column<0 && column>2 || board[rows][column]!=" ")
+ 
+{
+     
+printf("invalid move");
+ 
+}
+  
+
+
+  
+
+return 0;
+
+
+
+}
+
+
+
+
+
+
+int board [3][3],i,j,k=1;
+    
+ 
+void draw()
+      
+
+{
+    
+
+for(i=0;i<=2;i++)
+
+
+{
+
+        
+
+for(j=0;j<=2;j++)
+        
+
+{
+
+
+printf("%c ",board[i][j]);
+
+if(j>=0&&j<=1)
+{
+            
+
+printf("|");
+        
+
+}
+    }
+    
+
+
+printf("\n");
+    
+
+
+if(i>=0&&i<=1)
+
+
+{
+       
+
+printf("-------\n");
+                            
+
+}
+   
+ 
+printf("\n");
+
+
+}
+}
+
+
+void move(char symbol,int r,int c)
+                    (tic tac game.....3rd process)
+{
+    
+board [r][c]=symbol;
+
+ }
+
+
+
+int main() 
+{
+ 
+
+int c=0;
+
+char player1= 'x';
+
+
+char player2= 'o';
+   
+
+char currentplayer=player1;   
+   
+
+int rows,column;
+
+for(i=0;i<=2;i++)
+    
+
+{
+        
+
+for(j=0;j<=2;j++)
+        
+
+{
+            
+
+board[i][j]=' ';
+
+
+}
+    }
+
+while(c<9)
+
+{
+    
+
+
+draw();
+ 
+
+printf("player 1 %c\n",currentplayer);
+ 
+
+printf("enter the rows & column");
+ 
+
+scanf("%d %d",&rows,&column);
+ 
+
+if(rows<0 || rows>2 || column<0 || column>2 || board[rows][column]!=' ')
+ 
+
+{
+     
+
+printf("invalid move\n");
+
+
+continue;
+
+}
+
+
+else
+{
+    
+
+
+move(currentplayer,rows,column);
+
+c++;
+
+}
+}
+  
+return 0;
+
+}
+
+
+
+
+
+
+int board [3][3],i,j,k=1;
+     
+
+void draw()
+      
+
+{
+    
+for(i=0;i<=2;i++)
+
+
+{
+        
+
+for(j=0;j<=2;j++)
+        
+
+{
+
+
+printf("%c ",board[i][j]);
+
+if(j>=0&&j<=1)
+{
+            
+
+printf("|");
+        
+
+}
+    }
+    
+
+
+printf("\n");
+    
+
+
+if(i>=0&&i<=1)
+
+
+{
+       
+
+printf("-------\n");
+                                   (tic tac game.....process)         
+
+}
+    
+
+printf("\n");
+
+
+}
+}
+
+void move(char symbol,int r,int c)
+
+{
+    
+board [r][c]=symbol;
+
+}
+
+ 
+
+int checkwin(char c)
+
+{
+   
+for (i=0;i<=2;i++)
+   
+{
+       
+if(board[i][0]==c && board[i][1]==c && board[i][2]==c)
+       
+{
+           
+return 1;
+       
+}
+ }
+ 
+}
+
+
+
+int main() 
+
+{
+ 
+
+int c=0;
+
+char player1= 'x';
+
+
+char player2= 'o';
+   
+
+char currentplayer=player1;   
+   
+
+int rows,column;
+
+for(i=0;i<=2;i++)
+    
+
+{
+        
+
+for(j=0;j<=2;j++)
+        
+
+{
+            
+
+board[i][j]=' ';
+
+
+}
+    }
+
+while(c<9)
+
+{
+    
+
+
+draw();
+ 
+
+printf("player 1 %c\n",currentplayer);
+ 
+
+printf("enter the rows & column");
+ 
+
+scanf("%d %d",&rows,&column);
+ 
+
+if(rows<0 || rows>2 || column<0 || column>2 || board[rows][column]!=' ')
+ 
+
+{
+     
+
+printf("invalid move\n");
+
+continue;
+
+}
+
+
+else
+
+{
+    
+
+
+move(currentplayer,rows,column);
+
+c++;
+
+}
+}
+
+checkwin(currentplayer);
+  
+return 0;
+
+}
+
+
+
+
+
+
+ int i=10;
+    
+int *k=&i;
+    
+printf("%p\n",&i);
+    
+printf("%p\n",k);
+                         
+ printf("%p",&k);
+ 
+
+
+
+
+
+
+  
